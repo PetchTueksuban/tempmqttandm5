@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">mqttfromm5</string>
+    <string name="status_connecting">Status: Connecting...</string>
+    <string name="status_connected">Status: Connected to Cloud</string>
+    <string name="status_failed">Status: Connection Failed</string>
+    <string name="temp_display">Now temp from M5 is %s °C</string>
+</resources>
