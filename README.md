@@ -20,3 +20,6 @@ android_app/: Native Java Android application source code.
 Hardware: Flash the M5CoreS3 using Arduino IDE. Ensure WiFi and MQTT credentials match your server.
 Server: Deploy Mosquitto on your DigitalOcean Droplet and open port 1883.
 Android: Open the project in Android Studio, Sync Gradle, and update the serverUri in MainActivity.java with your Droplet IP.
+
+
+!!!in the code I made randow temp if you want real temp need to modify code at temp section!!!
