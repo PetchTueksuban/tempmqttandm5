@@ -22,4 +22,25 @@ Server: Deploy Mosquitto on your DigitalOcean Droplet and open port 1883.
 Android: Open the project in Android Studio, Sync Gradle, and update the serverUri in MainActivity.java with your Droplet IP.
 
 
-!!!in the code I made randow temp if you want real temp need to modify code at temp section!!!
+!!!in the code I made random temp if you want real temp need to modify code at temp section!!!
+
+# Temperature MQTT with M5Stack
+This project is designed to monitor and transmit temperature and humidity data using an M5Stack device via the MQTT protocol.
+
+# (Prerequisites)  
+Before getting started, ensure you have the following:
+**Hardware:**
+   -M5Stack Controller (e.g., Core, Core2, or M5StickC)  
+   -Temperature & Humidity Sensor (e.g., ENV Unit)
+**Software:**
+   - [Arduino IDE](https://www.arduino.cc/en/software)
+   - M5Stack Board support installed via Board Manager
+**Libraries  Install via Library Manager)**
+   -M5Stack or M5Unified
+   -PubSubClient (by Nick O'Leary) for MQTT functionality
+   -Adafruit BMP280 or the specific sensor library you are using
+
+# (Setup Instructions)
+**Clone Repository:**
+   ```bash
+   git clone [https://github.com/PetchTueksuban/tempmqttandm5.git](https://github.com/PetchTueksuban/tempmqttandm5.git)
