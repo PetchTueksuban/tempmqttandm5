@@ -40,7 +40,3 @@ Before getting started, ensure you have the following:
    -PubSubClient (by Nick O'Leary) for MQTT functionality
    -Adafruit BMP280 or the specific sensor library you are using
 
-# (Setup Instructions)
-**Clone Repository:**
-   ```bash
-   git clone [https://github.com/PetchTueksuban/tempmqttandm5.git](https://github.com/PetchTueksuban/tempmqttandm5.git)
